@@ -76,6 +76,19 @@ function ContactSection() {
                 </div>
               ))}
             </div>
+
+            <div className="mt-10 h-64 md:h-72 w-full bg-[#1A1A1A]/5 border border-[#1A1A1A]/10">
+              <iframe 
+                src="https://maps.google.com/maps?q=4218%20College%20Point%20Blvd,%20Flushing,%20NY%2011355&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen={false} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Google Maps"
+              />
+            </div>
           </div>
 
           <div className="bg-[#1A1A1A] text-[#FAF7F2] p-8 md:p-12">
